@@ -20,7 +20,7 @@ p1.addEventListener("click" , function(){
 	if(player1===winningScore){
 		p1score.classList.add("winner");
 		gameOver=true;
-		alert("player1 won!!");
+		alert("Hurrah!! You Won " +name1.value);
 		
 	}
 	p1score.textContent=player1;
@@ -35,7 +35,7 @@ p2.addEventListener("click" , function(){
 	if(player2===winningScore){
 		p2score.classList.add("winner");
 		gameOver=true;
-		alert("player2 won!!");
+		alert("Hurrah!! You Won " +name2.value);
 	}
 	p2score.textContent=player2;
 }
